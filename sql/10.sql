@@ -14,4 +14,4 @@ GROUP BY
     f.title
 ORDER BY
     actor_count ASC,
-    f.film_id ASC;
+    f.title;
