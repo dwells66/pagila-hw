@@ -33,7 +33,7 @@ jobs:
 
         # run the tests
         docker compose exec -T pg ./run_tests.sh
-
+        # Changed the file
         # FIXME:
         # the docker-compose command above will generate an error when the github action is run
         # this is due to the `fixme.sh` file not existing
